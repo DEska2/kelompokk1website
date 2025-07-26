@@ -1,0 +1,71 @@
+body {
+    background-color: #1e1f26;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+
+header h1 {
+    color: #00ff99;
+    margin-bottom: 10px;
+}
+
+.deskripsi {
+    color: #ccc;
+    font-size: 16px;
+}
+
+.galeri {
+    padding: 30px 20px;
+}
+
+.galeri h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    background-color: #2a2b38;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card iframe {
+    width: 100%;
+    height: 170px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #00ffcc;
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #d0d0d0;
+}
